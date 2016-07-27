@@ -10,6 +10,6 @@ package com.yy.test;
 public class MyThread extends Thread {
     @Override
     public void run(){
-        System.out.println("My thread running!");
+        System.out.println("My thread running...");
     }
 }
