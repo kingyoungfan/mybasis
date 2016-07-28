@@ -41,4 +41,26 @@ public class Main {
         Thread thread = new Thread(runnable);
         thread.start();
     }
+
+    @Test
+    public void testThreadName(){
+        MyRunnable myRunnable = new MyRunnable();
+        Thread thread = new Thread(myRunnable, "new thread");
+        thread.start();
+        System.out.println(thread.getName());
+        System.out.println(Thread.currentThread().getName());
+    }
+
+    @Test
+    public void testThread3(){
+        System.out.println(Thread.currentThread().getName());
+        for (int i = 0; i<10;i++){
+            new Thread(""+i){
+              public void run(){
+                  System.out.println("Thread:"+getName()+" running...");
+              }
+            }.start();
+        }
+
+    }
 }
