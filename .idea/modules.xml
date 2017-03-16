@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/basis/basis.iml" filepath="$PROJECT_DIR$/basis/basis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/groovy/groovy.iml" filepath="$PROJECT_DIR$/groovy/groovy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/basis/basis.iml" filepath="$PROJECT_DIR$/mybatis/basis/basis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/groovy/groovy.iml" filepath="$PROJECT_DIR$/mybatis/groovy/groovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis/thread/src/main/main.iml" filepath="$PROJECT_DIR$/mybatis/thread/src/main/main.iml" />
     </modules>
   </component>
 </project>
